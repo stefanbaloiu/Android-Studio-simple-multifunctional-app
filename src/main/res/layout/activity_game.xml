@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_700"
+    tools:context=".game">
+
+
+    <TextView
+        android:id="@+id/textGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:text="@string/game" />
+
+    <TextView
+        android:id="@+id/textRule"
+        android:layout_width="match_parent"
+        android:minHeight="50dp"
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/game_rule" />
+
+    <EditText
+        android:id="@+id/insertNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="25dp"
+        android:minHeight="48dp"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:hint="@string/number_here" />
+
+    <Button
+        android:id="@+id/compareButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/compare_numbers" />
+
+    <TextView
+        android:id="@+id/textOutcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:text="" />
+
+
+</LinearLayout>
